@@ -7,10 +7,12 @@ import {
   TouchableHighlight,
 } from 'react-native';
 
-const MusicList = ({ list }) => {
+const MusicList = ({ list, navigation }) => {
   return (
     <View>
-      <TouchableHighlight>
+      <TouchableHighlight
+        onPress={() => navigation.navigate('PlayScreen')}
+      >
         <View style={styles.container}>
           <View style={styles.imageWrapper}>
             <Image
