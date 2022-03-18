@@ -40,7 +40,7 @@ const MusicList = ({ list, navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: 12,
+    marginBottom: 6,
     backgroundColor: '#DCF4F3',
     width: '100%',
     padding: 6,
